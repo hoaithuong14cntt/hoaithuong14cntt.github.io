@@ -29,8 +29,7 @@ export default class Instagram extends Vue {}
     justify-content: center;
 
     img {
-      width: 245px;
-      height: 180px;
+      width: 30%;
       object-fit: cover;
       margin: 15px;
     }

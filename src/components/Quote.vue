@@ -23,9 +23,11 @@ export default class Quote extends Vue {}
   position: relative;
 
   .wrap-background {
-    background-image: url(/img/bg-quote.931ddf53.jpeg);
+    background-image: url('../assets/images/bg-quote.jpeg');
     height: 550px;
     background-position: 0px -37px;
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: blur(2px);
   }
 

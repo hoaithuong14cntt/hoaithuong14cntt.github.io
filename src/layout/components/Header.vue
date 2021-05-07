@@ -13,7 +13,6 @@
           <li v-scroll-to="'#skills'">Skills</li>
           <li v-scroll-to="'#instagram'">Instagram</li>
           <li v-scroll-to="'#quote'">Quote</li>
-          <li v-scroll-to="'#video-player'">Video Player</li>
           <li v-scroll-to="'#contact'">Contact</li>
         </ul>
       </div>

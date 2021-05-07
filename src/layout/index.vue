@@ -8,6 +8,8 @@
     <Skills id="skills"/>
     <Instagram id="instagram"/>
     <Quote id="quote"/>
+    <Contact id="contact"/>
+    <Footer/>
   </div>
 </template>
 
@@ -21,6 +23,8 @@ import Education from '@/components/Education.vue';
 import Skills from '@/components/Skills.vue';
 import Instagram from '@/components/Instagram.vue';
 import Quote from '@/components/Quote.vue';
+import Contact from '@/components/Contact.vue';
+import Footer from './components/Footer.vue';
 
 @Options({
   components: {
@@ -31,7 +35,9 @@ import Quote from '@/components/Quote.vue';
     Education,
     Skills,
     Instagram,
-    Quote
+    Quote,
+    Contact,
+    Footer
   }
 })
 export default class Layout extends Vue {
